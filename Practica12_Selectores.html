@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="../css/estilos.css">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <body>
+            <h1> Sistemas de comunicaciones y cadena de transmisión</h1>
+
+            <a href="https://www.ingenieria.unam.mx/programas_academicos/licenciatura/Telecomunicaciones/05/fundamentos_de_sistemas_de_comunicaciones.pdf" title="Bibliografia">Bibliografia</a>
+            <a href="https://es.wikipedia.org/wiki/Sistemas_de_Comunicaciones_M%C3%B3viles" title="Bibliografia 2">Sistemas de Comunicaciones Móviles</a>
+            <a href="https://www.cisco.com/c/es_mx/products/unified-communications/index.html" title="Comunicaciones Unificadas en Cisco">Comunicaciones Unificadas en Cisco</a>
+
+            <p class="definicion"> 
+                Los sistemas de comunicaciones digitales no solo proporcionan sistemas de tratamiento de señales más baratos y fiables, sino que representan también otras ventajas. El hardware digital y el software asociado representan un mayor grado de flexibilidad en el sistema.
+            </p>
+
+            <ul>
+                <li class="spacious">Telefonía móvil</li>
+                <li class="spacious">Correo electrónico</li>
+                <li class="spacious">Videollamada</li>
+              </ul>              
+
+            <h2> <i>
+                    Señales, sistemas y tratamiento de señales
+                </i>
+            </h2>
+            <p class="descripcion">
+                Una señal se define como cualquier magnitud fisica que varia con el tiempo, el espacio o cualquier otra variable o variables independientes.
+            </p>
+            <h2> <i>
+                    Elementos básicos de un sistema de tratamiento digital de
+                    señales
+                </i>
+            </h2>
+            <p>
+                Analog device —> A/d —-> Source encoder —> Channel encoder —->
+                Modulation —->
+                Power amplifier —--> Channel —-> Low noise amplifier —-->
+                Demodulator —--> Channel
+                decoder —-> Source decoder —--> D/A —---> Analog user
+            </p>
+            <p>
+                El mensaje a ser enviado puede provenir de una fuente digital o
+                analógica. El convertidor
+                analogico-digital (A/D) muestrea y cuantiza la se;al analogica y
+                representa las muestras en
+                formato digital (codigo binario).
+            </p>
+            <p>
+                El codificador de fuente acepta la se;al digital y la codifica
+                en una señal mas corta
+                (compresión). Esta etapa disminuye la redundancia y por lo tanto
+                afecta a la transmisión de
+                datos.
+            </p>
+            <div class="spacious">
+                <p>
+                    El codificador de canal acepta la se;al de salida del
+                    codificador de fuente y la codifica en
+                    una señal mas grande que sigue siendo digital. En esta etapa se
+                    pretende reducir el ancho
+                    de banda requerido del sistema. La redundancia es
+                    deliberadamente agregada en la señal
+                    confinada, por lo que algunos errores causados por el ruido o
+                    interferencias durante la
+                    transmisión pueden ser corregidos en el receptor.
+                </p>
+            </div>
+
+            <p class="descripcion">
+                El modulador es una etapa que permite convertir a la señal en
+                una señal apta para su
+                transmisión.
+            </p>
+
+            <p class="descripcion">
+                Usualmente, se coloca un amplificador de potencia después del
+                modulador.
+            </p>
+            <p class="descripcion">
+                El medio de transmisión es denominado canal donde se agregan
+                efectos de ruido,
+                desvanecimiento y atenuación. El canal también tiene un ancho de
+                banda limitado.
+            </p>
+
+            <p class="descripcion">
+                En el receptor puede existir un amplificador de señales si es
+                requerido. Posteriormente es
+                demodulado, entonces la redundancia agregada es removida y
+                mediante el proceso inverso
+                se recupera la señal original.
+            </p>
+            <h2>
+                Fundamentos de redes de transmisión
+            </h2>
+            <p>
+                Un sistema de transmisión digital puede o no incluir en el
+                receptor una etapa de conversión
+                D/A.
+            </p>
+            <p>
+                El transmisor convierte una cadena de bits en una forma de onda
+                analógica, la cual es
+                enviada a través del canal.
+            </p>
+            <p>
+                El receptor recibe esta forma de onda analogica y la convierte
+                de regreso a un formato
+                digital para recuperar la cadena de bits
+            </p>
+            <p>
+                Cuando se dise;a una cadena de transmisión un objetivo primordia
+                es minimizar el ancho de
+                banda utilizado y aumentar la potencia de transmisión.
+            </p>
+            <p>
+                Suponiendo que el sistema se compone de ciertas etapas, el
+                sistema se puede diseñar y
+                analizar independientemente de la naturaleza de la señal
+                transmitida
+            </p>
+            <h3>
+                <i>
+                    Medios de transmisión cableados
+                </i>
+            </h3>
+            <p>
+                ● Líneas de cobre: Cable de par trenzado y coaxial.
+            </p>
+            <p>
+                ● Fibra óptica: Transmisión de capacidad media y alta desde
+                cualquier distancia.
+            </p>
+            <h3>
+                <i>
+                    Líneas de cobre
+                </i>
+            </h3>
+
+            <p>
+                El más representativo es el cable de par trenzado (UTP) debido a
+                que el cable no tiene
+                protección, la señal puede filtrarse o fugarse del medio.
+            </p>
+
+            <h3>
+                <i>
+                    Cable coaxial
+                </h3>
+            </i>
+
+            <p>
+                El cable coaxial fue utilizado principalmente para la TV y
+                servicios de TV en hogares.
+            </p>
+            <h3>
+                <i>
+                    Fibra óptica
+                </h3>
+            </i>
+            <p>
+                Dense Wavelength Division Multiplexing (DWDM) : Es una tecnica
+                de transmision que usa
+                diferentes longitudes de onda de luz para transmitir informacion
+                e incrementar el ancho de
+                banda de las instalaciones existentes de fibra optica.
+            </p>
+            <h3>
+                <i>
+                    Medios de transmisión inalámbricas
+                </h3>
+            </i>
+
+            <p>
+                ● Radio móvil: Capacidad baja, Sobre distancias cortas y medias.
+            </p>
+            <p>
+                ● Microondas. Capacidad media (Point to point). Sobre distancias
+                cortas y medias.
+                Alta capacidad en onda milimétrica
+            </p>
+        </body>
+    </html>

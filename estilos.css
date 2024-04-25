@@ -1,0 +1,55 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #2fd07f;
+}   
+
+a[title] {
+    color: purple;
+}
+
+a[href="https://es.wikipedia.org/wiki/Sistemas_de_Comunicaciones_M%C3%B3viles"]{
+    color: rgb(147, 10, 10);
+}
+
+a[href*="cisco"]{
+    font-size: 3em;
+}
+
+.spacious {
+    margin: 20px;
+    padding: 30px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc; 
+  }
+
+
+li.spacious {
+    margin: 2em;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.definicion {
+    background-color: #2fd07f;
+    width: 500px;
+    margin: 40px;
+    border: 15px solid blueviolet;
+    padding: 20px;
+
+}
+
+.descripcion {
+    border: 5px dashed palevioletred;
+    width: 30em;
+    color: blue;
+    background-color: azure;
+    display: inline-block;
+}
